@@ -1,0 +1,68 @@
+.container-fluid{
+  padding-left:0;
+  padding-right:0;
+  margin: 0;
+  width: 100%;
+}
+.row {
+  margin: 0;
+}
+/*seccion1*/
+.color{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.46);
+}
+.fondo{
+  background-image: url(../img/grid.png);
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100%;
+  .navegacion{
+     position: relative;
+     bottom: -50%;
+  }/*http://diamondthemes.co/photolio/wp-content/uploads/2014/07/cameras_003566261.jpg*/
+}
+.container > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-header, .container-fluid > .navbar-collapse {
+  margin: 0;
+}
+div#bs-example-navbar-collapse-1 {
+  margin: 0;
+}
+/*seccion2*/
+.paralx{
+  background-image: url(http://41.media.tumblr.com/829df1e1d9744fae311ade46f549b5e2/tumblr_mv2pdhZvph1rfsmlpo1_500.jpg);
+  width: 100%;
+  background-size: cover;
+  height: 100%;
+  .about{
+    margin: 0;
+    background-color: rgba(36, 34, 34, 0.67);
+    height: 100%;
+    color: white;
+    text-align: center;
+    padding: 10%;
+       hr {
+        width: 50%;
+      }
+      h4 {
+        margin: 0;
+        padding: 5% 10%;
+        text-align: center;
+      }
+      h1 {
+        font-size: 56px;
+        font-family: 'Squada One', cursive;
+      }
+  }
+}
+/*seccion3*/
+.gif{
+  background-image: url(http://38.media.tumblr.com/b7460ad166942f8230432b689e64da37/tumblr_mogxanPcgA1sry8yeo1_500.gif);
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  background-attachment: fixed;
+}
