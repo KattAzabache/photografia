@@ -5652,8 +5652,36 @@ button.close {
 .container > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-header, .container-fluid > .navbar-collapse {
   margin: 0; }
 
-div#bs-example-navbar-collapse-1 {
-  margin: 0; }
+nav.navbar.navbar-default {
+  border-radius: 0;
+  margin: 0;
+  background-color: transparent;
+  border-top: 3px solid white;
+  border-bottom: 3px solid white; }
+  nav.navbar.navbar-default .navbar-header {
+    background-color: #ADEC37;
+    padding: 1%; }
+    nav.navbar.navbar-default .navbar-header .navbar-brand {
+      float: left;
+      padding: 1% 33%;
+      font-size: 0;
+      line-height: 0;
+      height: auto; }
+      nav.navbar.navbar-default .navbar-header .navbar-brand h1 {
+        margin: 0;
+        font-size: 46px;
+        font-family: 'Squada One', cursive;
+        color: white; }
+  nav.navbar.navbar-default .navbar-collapse {
+    background-color: rgba(0, 0, 0, 0.83);
+    margin: 0; }
+    nav.navbar.navbar-default .navbar-collapse ul {
+      margin: 0; }
+      nav.navbar.navbar-default .navbar-collapse ul h2 {
+        margin: 0;
+        font-family: 'Squada One', cursive;
+        color: white;
+        padding: 10%; }
 
 /*seccion2*/
 .paralx {
@@ -5669,7 +5697,8 @@ div#bs-example-navbar-collapse-1 {
     text-align: center;
     padding: 10%; }
     .paralx .about hr {
-      width: 50%; }
+      width: 50%;
+      border-top: 1px solid #ADEC37; }
     .paralx .about h4 {
       margin: 0;
       padding: 5% 10%;
@@ -5705,19 +5734,19 @@ div#bs-example-navbar-collapse-1 {
       color: white;
       text-align: center;
       font-family: 'Squada One', cursive;
-      font-size: 56px;
-      padding-top: 12%; }
+      font-size: 56px; }
     .grid .contenedor hr {
       width: 50%;
       z-index: 3;
-      margin: 0 auto; }
+      margin: 0 auto;
+      border-top: 1px solid #ADEC37; }
     .grid .contenedor .imagenes {
       width: 100%;
-      padding: 0 10%; }
+      padding: 2% 10%; }
       .grid .contenedor .imagenes .fotos {
         margin-top: 22px;
         margin-bottom: 22px;
-        height: 200px;
+        height: 210px;
         float: left;
         display: block; }
         .grid .contenedor .imagenes .fotos .efec {
@@ -5793,7 +5822,27 @@ div#bs-example-navbar-collapse-1 {
     margin-bottom: 22px;
     height: 150px;
     float: left;
-    display: block; } }
+    display: block; }
+
+  .grid .contenedor h1 {
+    position: relative;
+    top: -4%;
+    margin: 0;
+    color: white;
+    text-align: center;
+    font-family: 'Squada One', cursive;
+    font-size: 56px;
+    padding-top: 12%; } }
+@media screen and (max-width: 800px) {
+  .grid .contenedor h1 {
+    position: relative;
+    top: -4%;
+    margin: 0;
+    color: white;
+    text-align: center;
+    font-family: 'Squada One', cursive;
+    font-size: 56px;
+    padding-top: 5%; } }
 @media screen and (max-width: 400px) {
   .grid .contenedor .imagenes {
     width: 100%;
@@ -5825,7 +5874,17 @@ div#bs-example-navbar-collapse-1 {
     margin-bottom: 22px;
     height: 90px;
     float: left;
-    display: block; } }
+    display: block; }
+
+  .grid .contenedor h1 {
+    position: relative;
+    top: -4%;
+    margin: 0;
+    color: white;
+    text-align: center;
+    font-family: 'Squada One', cursive;
+    font-size: 56px;
+    padding-top: 10%; } }
 @media screen and (max-height: 530px) {
   .grid .contenedor .imagenes .fotos {
     margin-top: 22px;
