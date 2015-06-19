@@ -85,10 +85,12 @@ div#bs-example-navbar-collapse-1 {
       text-align: center;
       font-family: 'Squada One', cursive;
       font-size: 56px;
+      padding-top: 12%;
     }
     hr{
       width: 50%;
       z-index: 3;
+      margin: 0 auto;
     }
     .imagenes{
        width: 100%;
@@ -232,4 +234,15 @@ div#bs-example-navbar-collapse-1 {
    float: left;
    display: block;
  } 
+ .paralx .about {
+    margin: 0;
+    background-color: rgba(224, 223, 223, 0.67);
+    height: 100%;
+    color: white;
+    text-align: center;
+    padding: 10% 5%;
+    h4{
+      font-size: 16px;
+    }
+  }
 }
