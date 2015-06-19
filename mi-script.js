@@ -29,14 +29,3 @@ $(document).ready(function() {
 });
 /*imagenes*/
 
-$(document).ready(function() {
-    $('div.thumb img').hoverpulse().each(function() {
-      var $img = $(this);
-      var link = $img.attr('data-link');
-      $img.attr('title','Goto: ' + link);
-      $img.click(function() {
-        window.open(link);
-        return false;
-      });
-    });
-});

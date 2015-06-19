@@ -76,7 +76,7 @@ div#bs-example-navbar-collapse-1 {
     width: 100%;
     height: 100%;
     margin: auto;
-    padding: 10% 0;
+    padding: 5% 0;
     h1 {
       position: relative;
       top: -4%;
@@ -91,15 +91,145 @@ div#bs-example-navbar-collapse-1 {
       z-index: 3;
     }
     .imagenes{
-        height: 100%;
        width: 100%;
        padding: 0 10%;
-       img {
-         width: 100%;
-         height: 200px;
-       }
+       .fotos{
+          margin-top: 22px;
+          margin-bottom: 22px;
+          height: 200px;
+          float: left;
+          display: block;
+          .efec{
+            position: relative;
+            border: 5px solid white;
+            -webkit-box-shadow: 0px 0px 0px 1px rgba(201, 201, 201, 1);
+            -moz-box-shadow: 0px 0px 0px 1px rgba(201, 201, 201, 1);
+            -ms-box-shadow: 0px 0px 0px 1px rgba(201, 201, 201, 1);
+            -o-box-shadow: 0px 0px 0px 1px rgba(201, 201, 201, 1);
+            box-shadow: 0px 0px 0px 1px rgba(201, 201, 201, 1);
+            float: left;
+            text-align: center;
+            -webkit-transition: all .3s;
+            -moz-transition: all .3s;
+            -ms-transition: all .3s;
+            -o-transition: all .3s;
+            transition: all .3s;
+            overflow: hidden;
+           img {
+             width: 100%;
+             height: 100%;
+             transition: all .3s;
+             -webkit-transition: all .3s;
+             -moz-transition: all .3s;
+             -ms-transition: all .3s;
+             -o-transition: all .3s;
+           }
+           .text{
+              position: absolute;
+              top: 0;
+              left: 0;
+              height: 100%;
+              display: table;
+              margin-left: -250px;
+              span{
+                  width: 200px;
+                  display: table-cell;
+                  vertical-align: middle;
+                  padding: 20px;
+                  color: black;
+                  opacity: 0;
+                  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+                  filter: alpha(opacity=0);
+                  text-shadow: 1px 1px 0px rgba(255,255,255,0.3);
+                  text-align: center;
+              }
+           }
+          }
+         }
     }
   }
 }
-
-
+.fotos:hover{
+  height: 380px;
+  margin-top: -15px;
+}
+.fotos:hover img {
+ /* rotacion*/
+  -webkit-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  transform: rotate(360deg);
+  /*opacity*/
+  opacity: 0.6; 
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+}
+.fotos:hover .text {
+  margin-left: 0px;
+}
+.fotos:hover span {
+  opacity: 1;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: alpha(opacity=100);
+}
+@media screen and (max-width: 1170px){
+.grid .contenedor .imagenes .fotos{
+   margin-top: 22px;
+   margin-bottom: 22px;
+   height: 150px;
+   float: left;
+   display: block;
+ }
+}
+@media screen and (max-width: 400px){
+ .grid .contenedor .imagenes {
+   width: 100%;
+   padding: 0 5%;
+ } 
+}
+@media screen and (max-height: 700px){
+.grid .contenedor .imagenes .fotos{
+   margin-top: 22px;
+   margin-bottom: 22px;
+   height: 115px;
+   float: left;
+   display: block;
+ } 
+}
+@media screen and (max-height: 700px){
+.grid .contenedor .imagenes .fotos{
+   margin-top: 22px;
+   margin-bottom: 22px;
+   height: 115px;
+   float: left;
+   display: block;
+ } 
+}
+@media screen and (max-height: 600px){
+.grid .contenedor .imagenes .fotos{
+   margin-top: 22px;
+   margin-bottom: 22px;
+   height: 90px;
+   float: left;
+   display: block;
+ } 
+}
+@media screen and (max-height: 600px){
+.grid .contenedor .imagenes .fotos{
+   margin-top: 22px;
+   margin-bottom: 22px;
+   height: 90px;
+   float: left;
+   display: block;
+ } 
+}
+@media screen and (max-height: 530px){
+.grid .contenedor .imagenes .fotos{
+   margin-top: 22px;
+   margin-bottom: 22px;
+   height: 80px;
+   float: left;
+   display: block;
+ } 
+}
