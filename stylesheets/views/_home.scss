@@ -30,7 +30,6 @@
   background-size: cover;
   background-attachment: fixed;
   width: 100%;
-  height: 100%;
   .navegacion{
      position: relative;
      bottom: 0;
@@ -231,6 +230,7 @@ nav.navbar.navbar-default {
 /*contact*/
 .contac{
   padding: 5%;
+  background-color: rgba(211, 207, 207, 0.43);
     h1 {
       position: relative;
       margin: 0;
@@ -245,5 +245,47 @@ nav.navbar.navbar-default {
       margin: 0 auto;
         border-top: 1px solid #ADEC37;
     }
+    .title{
+      padding: 2%;
+    }
   
+}
+.contactame {
+  padding: 10%;
+
+  img {
+     width: 100%;
+  }
+  .tod{
+    input#lastname {
+      width: 100%;
+    }
+    textarea#message {
+      width: 100%;
+    }
+    .map {
+      padding: 5% 0;
+        iframe {
+          width: 100%;
+        }
+    }
+    h3 {
+      margin: 0;
+      padding: 3% 0;
+      font-family: 'Squada One', cursive;
+      color: rgb(173, 236, 55);
+      font-size: 30px;
+    }
+    .icon{
+      text-align: center;
+      padding: 10% 0;
+      i.fa {
+        font-size: 30px;
+        text-align: center;
+        color: white;
+        background-color: rgb(173, 236, 55);
+        padding: 15%;
+      }
+    }
+  }
 }

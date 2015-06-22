@@ -5653,8 +5653,7 @@ button.close {
   background-image: url(../img/fondocontac.jpg);
   background-size: cover;
   background-attachment: fixed;
-  width: 100%;
-  height: 100%; }
+  width: 100%; }
   .fondo2 .navegacion {
     position: relative;
     bottom: 0; }
@@ -5826,7 +5825,8 @@ nav.navbar.navbar-default {
     background-attachment: fixed; } }
 /*contact*/
 .contac {
-  padding: 5%; }
+  padding: 5%;
+  background-color: rgba(211, 207, 207, 0.43); }
   .contac h1 {
     position: relative;
     margin: 0;
@@ -5839,5 +5839,35 @@ nav.navbar.navbar-default {
     z-index: 3;
     margin: 0 auto;
     border-top: 1px solid #ADEC37; }
+  .contac .title {
+    padding: 2%; }
+
+.contactame {
+  padding: 10%; }
+  .contactame img {
+    width: 100%; }
+  .contactame .tod input#lastname {
+    width: 100%; }
+  .contactame .tod textarea#message {
+    width: 100%; }
+  .contactame .tod .map {
+    padding: 5% 0; }
+    .contactame .tod .map iframe {
+      width: 100%; }
+  .contactame .tod h3 {
+    margin: 0;
+    padding: 3% 0;
+    font-family: 'Squada One', cursive;
+    color: #adec37;
+    font-size: 30px; }
+  .contactame .tod .icon {
+    text-align: center;
+    padding: 10% 0; }
+    .contactame .tod .icon i.fa {
+      font-size: 30px;
+      text-align: center;
+      color: white;
+      background-color: #adec37;
+      padding: 15%; }
 
 /*# sourceMappingURL=main.css.map */
