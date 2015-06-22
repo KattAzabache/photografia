@@ -5870,4 +5870,8 @@ nav.navbar.navbar-default {
       background-color: #adec37;
       padding: 15%; }
 
+.tod .icon i.fa:hover {
+  color: #adec37;
+  background-color: white; }
+
 /*# sourceMappingURL=main.css.map */

@@ -279,7 +279,7 @@ nav.navbar.navbar-default {
     .icon{
       text-align: center;
       padding: 10% 0;
-      i.fa {
+      i.fa{
         font-size: 30px;
         text-align: center;
         color: white;
@@ -288,4 +288,8 @@ nav.navbar.navbar-default {
       }
     }
   }
+}
+.tod .icon i.fa:hover{
+  color: rgb(173, 236, 55);
+  background-color:white;
 }
