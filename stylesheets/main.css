@@ -5644,10 +5644,20 @@ button.close {
   background-attachment: fixed;
   width: 100%;
   height: 100%;
-  /*http://diamondthemes.co/photolio/wp-content/uploads/2014/07/cameras_003566261.jpg*/ }
+  /*http://diamondthemes.co/photolio/wp-content/uploads/2014/07/cameras_003566261.jpg http://vadalu.260mb.net/Img/xamara.jpg https://d3ui957tjb5bqd.cloudfront.net/images/screenshots/products/3/39/39265/cmpromo-o.jpg?1379197136*/ }
   .fondo .navegacion {
     position: relative;
     bottom: -50%; }
+
+.fondo2 {
+  background-image: url(../img/fondocontac.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100%; }
+  .fondo2 .navegacion {
+    position: relative;
+    bottom: 0; }
 
 .container > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-header, .container-fluid > .navbar-collapse {
   margin: 0; }
@@ -5814,5 +5824,20 @@ nav.navbar.navbar-default {
     background-size: cover;
     width: 100%;
     background-attachment: fixed; } }
+/*contact*/
+.contac {
+  padding: 5%; }
+  .contac h1 {
+    position: relative;
+    margin: 0;
+    color: white;
+    text-align: center;
+    font-family: 'Squada One', cursive;
+    font-size: 56px; }
+  .contac hr {
+    width: 50%;
+    z-index: 3;
+    margin: 0 auto;
+    border-top: 1px solid #ADEC37; }
 
 /*# sourceMappingURL=main.css.map */
